@@ -2,6 +2,8 @@
 
 setup-git:
 	@echo "setup git for ucloud"
+	git config --global user.email "you@example.com"
+	git config --global user.name "sarah (ucloud)"
 
 install-uv:
 	@echo "installs uv"
