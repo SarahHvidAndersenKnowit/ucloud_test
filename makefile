@@ -11,7 +11,7 @@ install-uv:
 	curl -LsSf https://astral.sh/uv/install.sh | sh
 
 install-dependencies:
-	@echo "installing dependencies"
+	@echo "installing dependencies in"
 	uv sync
 
 run-project:
